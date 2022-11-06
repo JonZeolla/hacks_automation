@@ -1,0 +1,8 @@
+# Ignore everything
+**
+
+# Except the bare minimum
+!Pipfile
+!Pipfile.lock
+!hacks_automation
+!main.py
