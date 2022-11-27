@@ -19,6 +19,22 @@ pipenv run invoke build
 docker run jonzeolla/hacks_automation:2022.11.01 --help
 ```
 
+## Manual setup
+
+### Whoop
+
+Configure the following Journal questions and answer them daily to map to questions in the HACKS spreadsheet:
+
+| Whoop Journal                         | HACKS sheet                |
+| ------------------------------------- | -------------------------- |
+| Feel energized throughout the day?    | Energy levels              |
+| Feel emotionally and mentally stable? | Ability to focus           |
+| Experience any stress?                | Mental or emotional stress |
+| Do you feel recovered today?          | Muscle soreness            |
+| Sick?                                 | Signs of illness           |
+| Notes                                 | Session performed          |
+| Spend time outdoors?                  | Daylight time estimate     |
+
 ## Troubleshooting
 
 If you're troubleshooting the results of any of the invoke tasks, you can add `--debug` to enable debug logging, for instance:
