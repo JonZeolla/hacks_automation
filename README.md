@@ -16,7 +16,7 @@ pipenv install --deploy --ignore-pipfile --dev
 pipenv run invoke build
 
 # Run the image
-docker run jonzeolla/hacks_automation:2022.11.01 --help
+docker run jonzeolla/hacks_automation:2022.11.02 --help
 ```
 
 ## Manual setup
